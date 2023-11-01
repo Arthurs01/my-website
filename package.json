@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@next/font": "13.3.0",
+    "bootstrap": "^5.2.3",
+    "emailjs": "^4.0.1",
+    "eslint-config-next": "13.2.4",
+    "jquery": "^3.6.4",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scroll": "^1.8.9"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.8.0",
+    "gh-pages": "^5.0.0"
+  }
+}

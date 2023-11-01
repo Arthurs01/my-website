@@ -1,0 +1,179 @@
+
+
+
+
+.contact {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 80px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em;
+    background: linear-gradient(#2a308130, #07091830, #151d8530, #090b1b30);
+    margin: 0 auto;
+    text-align: center;
+}
+.color_text {
+    color: aqua;
+}
+
+.contact p {
+    line-height: 1.5em;
+}
+
+.contact_information {
+    width: 50%;
+}
+
+.contact_maps {
+    width: 50%;
+    position: relative;
+}
+
+.contact_maps {
+    width: 70%;
+    
+   
+}
+.contact_maps img{
+   width: 100%;
+   height: 100%;
+}
+
+
+.contact_maps::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 255, 242, 0.5); */
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 1;
+}
+
+
+.contact_information p {
+    font-size: 20px;
+}
+
+.contact_information {
+    text-align: start;
+
+}
+   
+.input_text{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+   
+}
+.form_textarea{
+   
+    width: 100%;
+    padding: 5px;
+}
+
+.form_send{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 100px;
+    padding: 5px;
+    background-color: rgba(34, 58, 65, 0.507);
+    color: aqua;
+    cursor: pointer;
+    margin-top: 20px;
+   
+}
+.form_send:hover{
+    background-color: rgba(38, 76, 87, 0.507);
+
+   
+}
+
+.input_text[type="text"],
+.input_text[type="email"],
+.form_textarea{
+    color: aqua;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 0.7142857142857143rem #08856a;
+}
+.input_text[type="text"],
+.input_text[type="email"],
+.form_textarea:focus{
+    box-shadow: 0 0 0.7142857142857143rem #0ba792;
+    border: 1px solid rgba(0, 255, 255, 0.459);
+}
+
+.input_text::placeholder{
+    color: rgba(0, 255, 255, 0.507);
+    
+}
+.input, .form_textarea{
+    border: 1px solid rgba(0, 255, 255, 0.459);
+    
+    outline: none;
+  }
+
+ 
+
+@media(max-width:1200px) {
+    .contact {
+        padding: 40px;
+        padding-top: 60px;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;                     
+    }
+    
+    .contact p {
+        line-height: 1.5em;        
+    }
+
+    .contact_information {
+        width: 100%;
+    }
+    .contact_maps {
+        width: 100%;  
+       
+    }
+    .contact_maps img{
+       width: 100%;
+       height: 100%;
+    }
+    .contact_information p {
+        font-size: 20px;
+    }  
+    
+    .input_text{
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        
+    }
+    .form_textarea{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .form_send{
+        font-size: 20px;
+        margin-top: 10px;
+        width: 150px;
+        padding: 10px;
+        
+    }
+
+   
+  
+
+}
+
+
+
+
