@@ -13,25 +13,28 @@
 
 }
 
-.navigation nav{
+
+
+.navigation{
     position: fixed;
     width: 100%;
     top: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     background-color: #131827;
-    padding: 20px;
+    transition: all ease .3s;
+    padding: 15px;
     z-index: 1;
 }
 
+
 .navigation nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     list-style: none;
+    display: flex;   
     gap: 30px;
-    
-    margin-right: 300px;
+    font-size: 14px;
+    color: aqua;
 }
 
 
@@ -49,20 +52,18 @@
     background: linear-gradient(#2a308130,#07091830,#151d8530,#090b1b30);
     border-right: 1px solid #dddddd07;
     z-index: 1;
-
-    
 }
 
 .navigation2 nav ul {
     list-style: none;
     border-bottom: 1px solid #dddddd10;
     padding: 25px;
+    color: aqua;
     
-
+    
 }
 .navigation2 nav ul li:hover{
-   color: aqua;
-   
+    color: rgba(0, 255, 255, 0.486);
    
 }
 

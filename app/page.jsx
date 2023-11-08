@@ -64,6 +64,7 @@ export default function Home() {
           <p>NextJs, ReactJs...</p>
           <br />
         </div>
+        <br />
 
       <ImgHoverx />
         <div className={styles.portfolio_info}>
@@ -71,15 +72,14 @@ export default function Home() {
             <span className={styles.color_text}>Recent Projects</span>
           </h1> */}
           <br />
+          <br />
           <h1>Backend...</h1>
           <p>NodeJs, Mysql, Json, Express...</p>
           <br />
         </div>
+        <br />
         <ImgHoverxBackend />
-
-
       </section>
-
       <Contact />
     </div>
   );
