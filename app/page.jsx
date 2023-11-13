@@ -46,9 +46,8 @@ export default function Home() {
           <br /> <br />
           <marquee scrollamount="10" style={{ maxWidth: "800px" }}>
             <h2>
-              ReactJS - NextJS - NodeJs - Express - Javascript - Mysql - JSON
-              server - API/API Rest - jQuery - HTML5 - CSS3 - Bootstrap - Git -
-              Github
+              ReactJS - NextJS - NodeJs - Express - Socket.io, Javascript - Mysql - PostgreSql - phpMyAdmin - JSON Server - API/API Rest - jQuery - HTML5 - CSS3 - Bootstrap - Git -
+              Github - Vercel, Heroku, Render, Railway...
             </h2>
           </marquee>
         </div>

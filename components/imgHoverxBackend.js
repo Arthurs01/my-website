@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../components/imgHoverx.module.css";
 import CrudJsonArray from  "../public/img/portfolio/crud_json_array.png"
 import inventary from  "../public/img/portfolio/inventary.png"
-import login from  "../public/img/portfolio/login.png"
+import login from  "../public/img/portfolio/xdata.png"
 import usuarios from  "../public/img/portfolio/usuarios.png"
 import books from  "../public/img/portfolio/books.png"
 
@@ -26,7 +26,7 @@ export default function imgHoverxBackend() {
       </div>
 
       <div className={styles.imgsHover}>
-        <a href="https://login-node-iup3.onrender.com"target="_blank">
+        <a href="https://login-kz22.onrender.com/"target="_blank">
 
         <div className="image">
           <Image src={login} width={300} height={180}/>
