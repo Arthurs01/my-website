@@ -2,9 +2,9 @@ import Image from "next/image";
 
 import styles from "../components/imgHoverx.module.css";
 import CrudJsonArray from  "../public/img/portfolio/crud_json_array.png"
-import inventary from  "../public/img/portfolio/inventary.png"
-import login from  "../public/img/portfolio/xdata.png"
-import usuarios from  "../public/img/portfolio/usuarios.png"
+import inventory from  "../public/img/portfolio/inventory.png"
+import login from  "../public/img/portfolio/xlogin.png"
+import data from  "../public/img/portfolio/xdata.png"
 import books from  "../public/img/portfolio/books.png"
 
 
@@ -14,9 +14,31 @@ export default function imgHoverxBackend() {
   return (
     <div className={styles.imgs}>
       <div className={styles.imgsHover}>
+      <a href="https://x-login.onrender.com/" target="_blank">
+        <div className="image">
+          <Image src={login} width={300} height={180} />
+        </div>
+        <div className={styles.text}>
+          <h3>Login</h3>
+          <h2>Using Mysql</h2>
+        </div>
+        </a>
+      </div>
+      <div className={styles.imgsHover}>
+      <a href="https://x-data.onrender.com/" target="_blank">
+        <div className="image">
+          <Image src={data} width={300} height={180} />
+        </div>
+        <div className={styles.text}>
+          <h3>Data</h3>
+          <h2>Using Mysql</h2>
+        </div>
+        </a>
+      </div>
+      <div className={styles.imgsHover}>
       <a href="https://crud-mysql-lw7s.onrender.com/" target="_blank">
         <div className="image">
-          <Image src={inventary} width={300} height={180} />
+          <Image src={inventory} width={300} height={180} />
         </div>
         <div className={styles.text}>
           <h3>Inventory</h3>
@@ -25,30 +47,7 @@ export default function imgHoverxBackend() {
         </a>
       </div>
 
-      <div className={styles.imgsHover}>
-        <a href="https://login-kz22.onrender.com/"target="_blank">
-
-        <div className="image">
-          <Image src={login} width={300} height={180}/>
-        </div>
-        <div className={styles.text}>
-          <h3>Login</h3>
-          <h2>Using Mysql</h2>
-        </div>
-        </a>
-      </div>
-
-      <div className={styles.imgsHover}>
-        <a href="https://crud-node-json.onrender.com/"target="_blank">
-        <div className="image">
-          <Image src={usuarios} width={300} height={180}/>
-        </div>
-        <div className={styles.text}>                                                                  
-          <h3>Users</h3>
-          <h2>JSON Database</h2>
-        </div>
-        </a>
-      </div>
+    
 
       <div className={styles.imgsHover}>
         <a href="https://node-books-9oyp.onrender.com"target="_blank">
@@ -62,17 +61,7 @@ export default function imgHoverxBackend() {
         </a>
       </div>
 
-      <div className={styles.imgsHover}>
-        <a href="https://crud-json-array.vercel.app/" target="_blank">
-        <div className="image">
-          <Image src={CrudJsonArray} width={300} height={180}/>
-        </div>
-        <div className={styles.text}>                                                                  
-          <h3>Task app</h3>
-          <h2>CRUD ARRAY</h2>
-        </div>
-        </a>
-      </div>
+    
 
 
     
