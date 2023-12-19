@@ -34,7 +34,7 @@ export default function Navigation2(){
            </nav>
            <div className={styles.social}>
             <a href='https://www.facebook.com/arturo.lopez.940641' target="_blank" rel="noopener noreferrer"><Image src={facebook} width={56} height={56} alt="Acceso a mi facebook"/></a><br/>
-            <a></a><Image src={whatsapp} width={40} height={40} alt="Acceso a mi whatsapp"/>
+            <a href="https://wa.me/526622284871?text=Contactar%20con%20un%20asesor"target="_blank" rel="noopener noreferrer"></a><Image src={whatsapp} width={40} height={40} alt="Acceso a mi whatsapp"/>
            </div>
 
 
