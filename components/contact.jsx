@@ -33,9 +33,9 @@ export default function Contact() {
                 <br />
                 <div className={styles.inputs}>
                     <form className={styles.formulario} onSubmit={sendEmail}>
-                        <input className={styles.input_text} type='text' placeholder='Name' name='nombre'></input><br />
-                        <input className={styles.input_text} type='text' placeholder='Phone' name='telefono' ></input><br />
-                        <input className={styles.input_text} type='text' placeholder='Email' name='correo'></input><br /><br />
+                        <input className={styles.input_text} type='text' placeholder='Name' name='nombre' required></input><br />
+                        <input className={styles.input_text} type='text' placeholder='Phone' name='telefono'></input><br />
+                        <input className={styles.input_text} type='text' placeholder='Email' name='correo'required></input><br /><br />
                         <textarea name="mensaje" id="" cols="50" rows="10" className={styles.form_textarea}></textarea><br />
                         <input type='submit' className={styles.form_send} value="Send" onClick={confirmation}></input>
                     </form>
