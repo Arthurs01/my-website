@@ -24,6 +24,8 @@ export default function Navigation2(){
             <Link href="/"onClick={() => setScrollTop(scrollTopY)}>
                 <Image src={logo} width={40} alt="Da click para ir al home" />
             </Link>
+            <p>Web Developer</p>
+            <p>Arthur</p>
             </div>
             <ul>
                 <li><Link href="/"onClick={() => setScrollTop(scrollTopY)}>Home</Link></li><br/>
@@ -36,8 +38,6 @@ export default function Navigation2(){
             <a href='https://www.facebook.com/arturo.lopez.940641' target="_blank" rel="noopener noreferrer"><Image src={facebook} width={56} height={56} alt="Acceso a mi facebook"/></a><br/>
             <a href="https://wa.me/526622284871?text=Contactar%20con%20un%20asesor"target="_blank" rel="noopener noreferrer"></a><Image src={whatsapp} width={40} height={40} alt="Acceso a mi whatsapp"/>
            </div>
-
-
         </div>
     )
 }

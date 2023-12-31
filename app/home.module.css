@@ -19,7 +19,7 @@
     font-size: 22px;
     margin-top: 25px;
     margin-bottom: 25px;
-    color: rgba(230, 233, 233, 0.521);
+    color: rgb(161, 161, 161);
 
 
 }
@@ -94,6 +94,7 @@
     background: linear-gradient(#2a308130, #07091830, #151d8530, #090b1b30);
     padding-bottom: 100px;
     box-shadow: 0 0 0.7142857142857143rem #0ba792;
+    color: rgb(161, 161, 161);
     
 }
 

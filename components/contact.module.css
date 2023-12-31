@@ -66,15 +66,18 @@
    
 .input_text{
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 10px;
+    border-radius: 999px;
     
-   
+    
 }
 .form_textarea{
-   
+    
     width: 100%;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .form_send{
@@ -110,6 +113,15 @@
 
 .input_text::placeholder{
     color: rgba(0, 255, 255, 0.507);
+    
+}
+.input_text{
+    border-color: none;
+}
+.input_text:focus{
+    color: rgba(0, 255, 255, 0.507);
+    box-shadow: 0 0 0.7142857142857143rem #0ba792;
+    border: 1px solid rgba(0, 255, 255, 0.459);
     
 }
 .input, .form_textarea{

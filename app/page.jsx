@@ -2,7 +2,7 @@ import './globals.css'
 import styles from "./home.module.css";
 import Image from "next/image";
 import arrowDown from "../public/img/gif/down-arrow3.png";
-/* import perfil from '../public/img/perfil/perfil.jpeg' */
+import perfil from '../public/img/perfil/yo.jpeg'
 import Contact from "website/components/contact";
 import "../components/imgHoverx.module.css";
 import ImgHoverx from "../components/imgHoverx";
@@ -21,15 +21,15 @@ export default function Home() {
           </h1>
           <h1>web developer</h1>
           <p>
-          Applications, websites and database management
+            Applications, websites and database management for your company...
           </p>
-          <a href="#contact">
+          <a href="#about">
             <button>About me</button>
           </a>
           <Image src={arrowDown} width={30} height={30} alt="ir hacia abajo" />
         </div>
         <div className={styles.perfil}>
-          {/*  <Image src={perfil}   alt="Imagen de perfil" priority /> */}
+           <Image src={perfil}   alt="Imagen de perfil" priority />
         </div>
       </header>
       <section className={styles.about_me} id="about">
@@ -37,7 +37,7 @@ export default function Home() {
           <h1>
             <span className={styles.color_text}>About me...</span>
           </h1>
-          <hr />
+          
           <br />
           <p>
             {"I'm"} a Web developer and i build apps using different types of technologies and databases as well as responsive hight quality designs for your bussiness {" "}
@@ -54,10 +54,8 @@ export default function Home() {
       </section>
       <section className={styles.portfolio} id="projects">
         <div className={styles.portfolio_info}>
-          <h1>
-            <span className={styles.color_text}>Recent Projects</span>
-          </h1>
-            <hr />
+          <h1><span className={styles.color_text}>Recent Projects</span></h1>
+            
           <br />
           <h1>Frontend...</h1>
           <p>NextJs, ReactJs...</p>
@@ -73,7 +71,7 @@ export default function Home() {
           <br />
           <br />
           <h1>Backend...</h1>
-          <p>NodeJs, Mysql, Json, Express...</p>
+          <p>NodeJs, Mysql, JSON, Express...</p>
           <br />
         </div>
         <br />

@@ -16,6 +16,18 @@ import CrudJsonArray from  "../public/img/portfolio/crud_json_array.png"
 export default function imgHover() {
   return (
     <div className={styles.imgs}>
+       <div className={styles.imgsHover}>
+        <a href="https://arthurs01.github.io/cryptox/" target="_blank">
+        <div className="image">
+          <Image src={crypto} width={300} height={180}/>
+        </div>
+        <div className={styles.text}>
+          <h3>Crypto API</h3>
+          <h2>Fetching Data</h2>
+        </div>
+        </a>
+      </div>
+
       <div className={styles.imgsHover}>
       <a href="https://mr-halley-arthurs01.vercel.app/" target="_blank">
         <div className="image">
@@ -39,30 +51,7 @@ export default function imgHover() {
         </a>
       </div>
 
-      <div className={styles.imgsHover}>
-        <a href="https://arthurs01.github.io/cryptox/" target="_blank">
-        <div className="image">
-          <Image src={crypto} width={300} height={180}/>
-        </div>
-        <div className={styles.text}>
-          <h3>CryptoCoin app</h3>
-          <h2>Fetch API</h2>
-        </div>
-        </a>
-      </div>
-   
-      <div className={styles.imgsHover}>
-        <a href="https://crud-json-array.vercel.app/" target="_blank">
-        <div className="image">
-          <Image src={CrudJsonArray} width={300} height={180}/>
-        </div>
-        <div className={styles.text}>                                                                  
-          <h3>Task app</h3>
-          <h2>CRUD ARRAY</h2>
-        </div>
-        </a>
-      </div>
-
+     
       <div className={styles.imgsHover}>
         <a href="https://argsoluciones.com.mx/#/" target="_blank">
         <div className="image">
