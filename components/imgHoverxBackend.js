@@ -38,7 +38,7 @@ export default function imgHoverxBackend() {
       </div>
     
       <div className={styles.imgsHover}>
-      <a href="https://crudx-mysql-production.up.railway.app/" target="_blank">
+      <a href="https://crud-mysql-lw7s.onrender.com/" target="_blank">
         <div className="image">
           <Image src={inventory} width={300} height={180} />
         </div>
