@@ -1,0 +1,78 @@
+       <!-- {/*  <div className={styles.portfolio_img}>
+          
+          
+          <div className={styles.imgsHover}>
+            <div className="image">
+              
+            </div>
+            <div className={styles.text}>
+              <h3>Arturo López</h3>
+              <h2>Web Designer</h2>
+            </div>
+          </div>
+
+
+          <div className={`${styles.image_portfolio} ${styles.imgsHover}`}>
+            <a href="https://seiodm.vercel.app/" target="_blank">
+              <div>
+                <Image src={seiodm} alt="App cryptocoins" />
+              </div>
+              <div className={styles.text}>
+                <h1>asdfasdfasdfsf</h1>
+                </div>
+            </a>
+            <br />
+            <br />
+            SEI-ODM
+          </div>
+
+          <div className={styles.image_portfolio}>
+            <a href="https://arthurs01.github.io/cryptox/" target="_blank">
+              <Image src={crypto} alt="App cryptocoins" />
+            </a>
+            <br />
+            <br />
+            Cryptocoin API
+          </div>
+
+          <div className={styles.image_portfolio}>
+            <a href="https://argsoluciones.com.mx" target="_blank">
+              <Image src={arg} alt="Sale equipment industry and mining" />
+            </a>
+            <br />
+            <br />
+            ARG soluciones
+          </div>
+
+          <div className={styles.image_portfolio}>
+            <a href="https://embc.com.mx/" target="_blank">
+              <Image src={embc} alt="Sale equipment industry and mining" />
+            </a>
+            <br />
+            <br />
+            EMBC
+          </div>
+         
+
+          <div className={styles.image_portfolio}>
+            <a
+              href="https://agoagencia.github.io/boda_ruben_anahi/"
+              target="_blank"
+            >
+              <Image src={weeding} alt="Weeding invitation" />
+            </a>
+            <br />
+            <br />
+            Wedding invitations
+          </div>
+
+          <div className={styles.image_portfolio}>
+            <a href="https://arthurs01.github.io/business/" target="_blank">
+              <Image src={bussiness} alt="App x Company" />
+            </a>
+            <br />
+            <br />
+            Hotel website - template
+          </div>
+         
+        </div> */} -->

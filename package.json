@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.1.0",
+    "gh-pages": "^5.0.0"
+  }
+}
