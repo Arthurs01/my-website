@@ -47,7 +47,7 @@ export default function Home() {
           <marquee scrollamount="10" style={{ maxWidth: "800px" }}>
             <h2>
               ReactJS - NextJS - NodeJs - Express - Socket.io, Javascript - Mysql - PostgreSql - phpMyAdmin - JSON Server - API/API Rest - jQuery - HTML5 - CSS3 - Bootstrap - Git -
-              Github - Vercel, Heroku, Render, Railway...
+              Github - Vercel, Heroku, Render, Railway, etc.
             </h2>
           </marquee>
         </div>
@@ -56,28 +56,18 @@ export default function Home() {
         <div className={styles.portfolio_info}>
           <h1><span className={styles.color_text}>Recent Projects</span></h1>
             
-          <br />
-          <h1>Frontend...</h1>
-          <p>NextJs, ReactJs...</p>
-          <br />
+         
+         
         </div>
         <br />
 
       <ImgHoverx />
-        <div className={styles.portfolio_info}>
-          {/* <h1>
-            <span className={styles.color_text}>Recent Projects</span>
-          </h1> */}
-          <br />
-          <br />
-          <h1>Backend...</h1>
-          <p>NodeJs, Mysql, JSON, Express...</p>
-          <br />
-        </div>
-        <br />
-        <ImgHoverxBackend />
+       
+      
       </section>
       <Contact />
     </div>
   );
 }
+
+
